@@ -1,0 +1,13 @@
+https://mui.com/material-ui/getting-started/installation/
+https://www.w3schools.com/react/react_router.asp
+
+npm install @mui/material @emotion/react @emotion/styled
+npm install @mui/material @mui/styled-engine-sc styled-components
+npm install @fontsource/roboto
+npm install @mui/icons-material
+
+npm install react-router-dom@latest
+
+npm install react-toastify
+npm install react-modal
+

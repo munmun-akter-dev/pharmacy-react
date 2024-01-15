@@ -1,0 +1,183 @@
+/* dashboard.css */
+
+/* Add margin, padding, and background color to the row */
+.row {
+  margin-bottom: 20px;
+}
+
+/* Add margin, padding, and background color to the cards */
+.card {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #fff; /* Default card background color */
+}
+
+.white-text {
+  color: white;
+}
+
+/* Revenue Card */
+.card.revenue-card {
+  background-color: #27a2b8; 
+}
+
+/* Sales Card */
+.card.sales-card {
+  background-color: #31a746; 
+}
+
+/* Products Card */
+.card.products-card {
+  background-color: #fdc106; 
+}
+
+/* Clients Card */
+.card.clients-card {
+  background-color: #dc3546; 
+}
+
+
+
+/* Add margin, padding, and background color to the stat widget */
+.stat-widget-five {
+  display: flex;
+  align-items: center;
+}
+
+.stat-widget-five .stat-icon {
+  font-size: 40px;
+  padding: 10px;
+  color: #fafafa;
+}
+
+/* Add margin, padding, and background color to the stat content */
+.stat-content {
+  flex: 1;
+  padding-left: 10px;
+}
+
+/* Add margin, padding, and background color to the stat text */
+.stat-text {
+  font-size: 24px;
+  color: #444;
+}
+
+/* Add margin, padding, and background color to the stat heading */
+.stat-heading {
+  font-size: 16px;
+  color: #777;
+}
+
+/* Add margin, padding, and background color to the table */
+.table {
+  margin-bottom: 0;
+  background-color: #fff; /* Default table background color */
+}
+
+/* Add margin, padding, and background color to the table headers */
+.table thead th {
+  background-color: #f6f6f6;
+}
+
+/* Add margin, padding, and background color to the table cells */
+.table td,
+.table th {
+  padding: 8px;
+}
+
+/* Add more custom styles as needed */
+
+/* Add styling for the revenue card */
+.card-body .stat-widget-five {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.stat-icon {
+  font-size: 40px;
+  padding: 10px;
+  color: #fff;
+}
+
+.flat-color-1 {
+  background-color: #ff5f6d; /* Revenue card background color */
+}
+
+.stat-content {
+  flex: 1;
+  padding-left: 10px;
+}
+
+.stat-text {
+  font-size: 24px;
+  color: #444;
+}
+
+.stat-heading {
+  font-size: 16px;
+  color: #777;
+}
+
+/* Add styling for the sales card */
+.flat-color-2 {
+  background-color: #00c9ff; /* Sales card background color */
+}
+
+/* Add styling for the templates card */
+.flat-color-3 {
+  background-color: #ffb900; /* Templates card background color */
+}
+
+/* Add styling for the clients card */
+.flat-color-4 {
+  background-color: #7a6fff; /* Clients card background color */
+}
+
+/* Add styling for the revenue overview table */
+.table-stats {
+  margin-top: 20px;
+}
+
+.order-table th,
+.order-table td {
+  text-align: center;
+}
+
+.order-table .avatar {
+  width: 80px;
+}
+
+.order-table .avatar img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.order-table .name,
+.order-table .product {
+  font-weight: bold;
+}
+
+.order-table .badge-complete {
+  background-color: #43d39e;
+  color: #fff;
+}
+
+/* Add styling for the top products table */
+.top-products .avatar {
+  width: 80px;
+}
+
+.top-products .avatar img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+/* Add background color to the body */
+body {
+  background-color: #f2f2f2;
+}
+
+/* Add more custom styles as needed */
